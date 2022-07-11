@@ -1,0 +1,31 @@
+.common-btn{
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FE0E36;
+
+    p{
+        color: #fff;
+        font-size: 12px;
+    }
+}
+
+.commont-btn__inactive{
+    border: 1px solid #ccc;
+    background: #fff;
+
+    p{
+        color: #ccc;
+    }
+}
+
+.common-btn_white{
+    border: 2px solid #F74E05;
+    background: #fff;
+
+    p{
+        color: #333;
+    }
+}
