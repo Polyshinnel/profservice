@@ -69,3 +69,43 @@
     width: 100%;
     resize: none;
 }
+
+.product-cart{
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+    .product-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .product-sku{
+        width: 100%;
+        font-weight: 300;
+    }
+
+    .product-link{
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .product-name{
+        font-weight: 300;
+        width: 100%;
+        color: #333;
+    }
+
+    .product-price{
+        width: 100%;
+        font-weight: 700;
+    }
+}

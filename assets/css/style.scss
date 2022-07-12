@@ -892,3 +892,206 @@ body{
         }
     }
 }
+
+.add-new{
+    margin-top: 50px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.product-main__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -34px;
+
+    .product-cart_big{
+        width: 274px;
+        height: 459px;
+        padding: 14px 14px 30px;
+        margin-left: 34px;
+        margin-top: 40px;
+
+        .product-img{
+            height: 201px;
+        }
+
+        .product-sku{
+            margin-top: 15px;
+        }
+
+        .product-name{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .product-price{
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .common-btn_shop-product{
+            margin-top: 30px;
+            height: 36px;
+            width: 100%;
+
+            p{
+                margin-left: 10px;
+            }
+        }
+
+        .common-btn_white-shop-one-click{
+            margin-top: 15px;
+            height: 36px;
+            width: 100%;
+
+            p{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.manufacturer-list{
+    margin-top: 50px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .manufacturer-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .manufactuter-main-unit-link{
+            display: flex;
+            text-decoration: none;
+
+            .manufactuter-main-unit{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 240px;
+                height: 112px;
+                border: 1px solid #CCCCCC;
+                padding: 12px;
+
+                .manufactuter-main-unit-img{
+                    width: 162px;
+                    height: 62px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img{
+                        object-fit: contain;
+                    }
+                }
+
+                p{
+                    font-weight: 600;
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+.about-text{
+    margin-top: 50px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .about-text__block{
+        margin-top: 30px;
+
+        p{
+            font-size: 14px;
+        }
+
+        p+p{
+            margin-top: 20px;
+        }
+    }
+}
+
+.delivery-banner{
+    margin-top: 50px;
+    border: 1px solid #CCCCCC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+
+    .delivery-banner__text{
+        margin-left: 40px;
+        p{
+            font-size: 14px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .common-btn_delivery-banner{
+            width: 220px;
+            height: 35px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.manufacturer-page{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -18px;
+
+    .manufacturer-page__unit-link{
+        text-decoration: none;
+        display: flex;
+        margin-left: 18px;
+        margin-top: 35px;
+    }
+
+    .manufacturer-page__unit{
+        width: 284px;
+        height: 322px;
+        border: 1px solid #CCCCCC;
+        box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        padding: 21px;
+
+        .manufacturer-page__unit-img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 181px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        p{
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+    }
+}
