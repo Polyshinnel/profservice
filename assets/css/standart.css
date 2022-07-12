@@ -5,10 +5,14 @@
   align-items: center;
   justify-content: center;
   background: #FE0E36;
+  transition: 0.3s all ease;
 }
 .common-btn p {
   color: #fff;
   font-size: 12px;
+}
+.common-btn:hover {
+  background: #E40F33;
 }
 
 .commont-btn__inactive {
@@ -18,6 +22,12 @@
 .commont-btn__inactive p {
   color: #ccc;
 }
+.commont-btn__inactive:hover {
+  background: #fff;
+}
+.commont-btn__inactive:hover p {
+  color: #ccc;
+}
 
 .common-btn_white {
   border: 2px solid #F74E05;
@@ -25,4 +35,29 @@
 }
 .common-btn_white p {
   color: #333;
+}
+.common-btn_white:hover {
+  background: #F74E05;
+}
+.common-btn_white:hover p {
+  color: #fff;
+}
+
+.common-input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #C8C8C8;
+  border-radius: 50px;
+  padding: 0 19px;
+  font-size: 14px;
+}
+
+.common-textarea {
+  border: 1px solid #C8C8C8;
+  border-radius: 16px;
+  padding: 19px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  resize: none;
 }/*# sourceMappingURL=standart.css.map */
