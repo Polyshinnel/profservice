@@ -43,6 +43,21 @@
   color: #fff;
 }
 
+.common-btn_yellow {
+  border: 2px solid #F5D6B2;
+  background: #F5D6B2;
+}
+.common-btn_yellow p {
+  color: #333;
+}
+.common-btn_yellow:hover {
+  border: 2px solid #E3C29C;
+  background: #E3C29C;
+}
+.common-btn_yellow:hover p {
+  color: #333;
+}
+
 .common-input {
   width: 100%;
   height: 42px;
@@ -95,4 +110,23 @@
 .product-cart .product-price {
   width: 100%;
   font-weight: 700;
+}
+
+.common-select {
+  position: relative;
+}
+.common-select img {
+  position: absolute;
+  right: 15px;
+  top: 11px;
+}
+.common-select select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  padding: 0 20px;
+  border: 1px solid #C8C8C8;
 }/*# sourceMappingURL=standart.css.map */
