@@ -25,3 +25,7 @@ $('.header__bottom-catalog-more').click(function(){
 $('.header__cart-img').click(function(){
     $('.cart-menu').slideToggle();
 })
+
+$('.common-btn_white-contacts').click(function(){
+    $('.fancy-box_selection').fadeIn(300);
+})
